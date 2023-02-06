@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+</head>
+<body>
+    <h1>Vamos trabalhar com imagens</h1>
+
+    <p>Aumente e diminuia o tamanho do navegador</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="Imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="Imagens/foto-m.png" type="image/png">
+        <img src="Imagens/foto-g.png" alt="Foto de uma vida no campo">
+    </picture>
+
+    <h1>Vamos ouvir um audio agora!</h1>
+
+    <audio preload="metadata" controls>
+        <source src="Audios/happy-mistake.mp3" type="audio/mp3">
+        <p>Infelizmente não foi possivel reproduzir o audio</p>
+    </audio>
+</body>
+</html>
